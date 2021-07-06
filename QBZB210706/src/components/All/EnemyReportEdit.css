@@ -1,0 +1,546 @@
+.Side {
+  float: left;
+  width: 300px;
+  height: 2000px;
+}
+
+.content_box {
+  width: 1920px;
+  height: 975px;
+  margin: 5px 0;
+  background: #e3eaf4;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+
+.checkStyle {
+  float: left;
+  width: 250px;
+  margin: 10px 10px;
+}
+
+.BasicFodder {
+  font-size: 16px;
+  background: #d6e4ef;
+  color: #26adda;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.FodderType {
+  float: left;
+  width: 100%;
+}
+
+.FodderTypeTitle {
+  font-size: 16px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  color: #000;
+  /* color:#bbc4da; */
+
+  font-size: 14px;
+  line-height: 17px;
+  background: #c8ccce;
+}
+
+.FodderTypeChild {
+  float: left;
+}
+
+
+.Content {
+  float: left;
+  width: 1562px;
+  height: 350px;
+  margin-top: 0px;
+  border: 1px solid black;
+}
+
+.contentOut {
+  float: left;
+  width: 1560px;
+  height: 222px;
+  margin-left: 300px;
+  margin-top: -100px;
+  border: 1px solid black;
+
+}
+
+.contentOuts {
+  float: left;
+  width: 1560px;
+  height: 649px;
+  margin-left: 300px;
+  border: 1px solid black;
+  margin-top: 0px
+}
+
+.contentOutlast {
+  float: left;
+  width: 1560px;
+  height: 632px;
+  margin-left: 300px;
+  border: 1px solid black;
+  margin-top: 0px
+}
+
+.textArer {
+  border: 1px solid black;
+  margin-top: 103px;
+  width: 1562px;
+  height: 350px;
+}
+
+.FodderRadar {
+  font-size: 16px;
+  background: #d6e4ef;
+  color: #26adda;
+  width: 1920px;
+  height: 30px;
+  line-height:30px;
+  padding-left:10px;
+  text-align: left;
+}
+
+.ContentBasic {
+  float: left;
+  width: 1920px;
+}
+
+.ContentSpecial {
+  float: left;
+  width: 1562px;
+  height: 30px;
+  margin-top: 60px;
+}
+
+.ContentBattle {
+  float: left;
+  width: 1562px;
+  height: 231px;
+}
+
+.ContentBattler {
+  float: left;
+  width: 1562px;
+  height: 111px;
+}
+
+.ContentBattles {
+  float: left;
+  width: 1562px;
+  height: 272px;
+}
+
+.ContentTable {
+  float: left;
+  width: 1560px;
+  height: 620px;
+}
+
+.ContentParams {
+  float: left;
+}
+
+.tableBorder {
+  padding: -10px 10px 5px 10px;
+  margin: 0px 0;
+  float: left;
+  border: 1px solid black;
+}
+
+.tableRow {
+  width: 1920px;
+  height: 40px;
+}
+
+
+.Pattern {
+  height: 40px;
+  width: 100px;
+  float: left;
+  border: #c8ccce;
+  text-align: center;
+  line-height: 40px;
+}
+
+.Pattern span {
+  font-size: 20px;
+}
+
+.head {
+  padding-right: 20px;
+  height: 60px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  background: #e3eaf4;
+  position: fixed;
+  z-index: 1051;
+  margin-bottom: 46px;
+  width: 1920px;
+  box-shadow:0 2px 5px #ddd;
+}
+
+
+.objective {
+  float: left;
+  padding-left: 40px;
+  background:#fff;
+  padding-bottom:5px;
+}
+
+.activityObjective {
+  padding: 5px 5px 5px 5px;
+  background: #dad8d8;
+  width: 900px;
+  float: left;
+}
+
+.BasicSituation {
+  padding: 5px 5px 5px 5px;
+  background: #dad8d8;
+  width: 900px;
+  float: left;
+  margin-left: 40px
+}
+
+.introduce {
+  border: 1px solid #d9d9d9;
+  height: 270px;
+  width: 900px;
+  float: left;
+  /* overflow-y: scroll; */
+}
+
+.introduceTwo {
+  border: 1px solid #d9d9d9;
+  height: 270px;
+  width: 900px;
+  float: left;
+  margin-left: 40px;
+  /* overflow-y: scroll; */
+}
+
+
+.popFodderType {
+  float: left;
+  width: 620px;
+  height: 40px;
+}
+
+.popFodderTypeMax {
+  width: 980px;
+}
+
+.choicefodder {
+  float: left;
+  width: 620px;
+  height: 40px;
+  text-align: center;
+}
+
+.uploadtable {
+  width: 980px;
+  text-align: center;
+}
+
+.popselect {
+  float: left;
+  width: 280px;
+  height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Frequency {
+  background: #dad8d8;
+  width: 1500px;
+  margin-left: 25px;
+  margin-top: 20px;
+  height: 50px;
+  line-height: 50px;
+
+}
+
+.specilFrequency {
+  background: #dad8d8;
+  width: 1500px;
+  margin-left: 25px;
+  height: 50px;
+  line-height: 50px;
+
+}
+
+.FrequencyTable {
+  width: 1500px;
+  margin-left: 25px;
+}
+
+.subhead {
+  height:40px;
+  line-height:40px;
+  padding-left:10px;
+  background: #dad8d8;
+  width: 1920px;
+  float: left;
+}
+
+
+
+.character {
+  border: 1px solid black;
+  width: 1560px;
+  height: 190px;
+  margin-top: 0px;
+  float: left;
+}
+
+.plant {
+  border: 1px solid black;
+  width: 1560px;
+  height: 200px;
+  margin-top: 31px;
+}
+
+.plantname {
+  width: 340px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  background-color: #666666;
+  margin-left: 100px;
+  margin-top: 40px;
+  padding-top: 0px
+}
+
+.equipplantname {
+  width: 340px;
+  height: 45px;
+  float: left;
+}
+
+.paramsTable {
+  float: left;
+  margin-top: 0px;
+  height: 656px;
+  width: 1560px;
+  border: 1px solid black;
+
+}
+
+.subject {
+  width: 1920px;
+  margin-left: 0px;
+  margin-top: 0px;
+  float: left;
+  position: relative;
+}
+
+/* .introduce {
+  border: 1px solid black;
+  height: 270px;
+  width: 750px;
+  float: left;
+
+}
+
+.introduceTwo {
+  border: 1px solid black;
+  height: 270px;
+  width: 750px;
+  float: left;
+  margin-left: 59px
+} */
+
+.list {
+  padding: 5px 5px 5px 5px;
+  background: #dad8d8;
+  width: 1920px;
+  float: left;
+  height: 100px;
+  line-height: 100px;
+}
+
+.Button {
+  margin-right: 0px;
+  width: 180px;
+  float: right;
+  height: 69px;
+}
+
+.Statistics {
+  /* margin-top: -40px; */
+  margin-left: 10px
+}
+
+.troopsRigth {
+  border: 1px solid #d9d9d9;
+  height: 370px;
+  width: 1200px;
+  float: left;
+  margin-left: 50px;
+  overflow: hidden;
+  margin-top:2px;
+}
+
+.troopsLeft {
+  border: 1px solid #d9d9d9;
+  height: 370px;
+  width: 660px;
+  float: left;
+  overflow-y: scroll;
+  margin:2px 0 2px 2px;
+}
+
+.spanInput {
+  height: 32px;
+  margin-left: 50px;
+  margin-top: 10px;
+  float: left;
+}
+
+.spanInputRight {
+  height: 32px;
+  width: 500px;
+  margin-left: 35px;
+  margin-top: 10px;
+  float: left;
+}
+
+.spanName {
+  background-color: #c6ecf9;
+  width: 170px;
+  height: 32px;
+  font-size: 14px;
+  text-align: center;
+  float: left;
+  line-height: 32px
+}
+
+.inputText {
+  width: 275px;
+  height: 32px;
+  float: left;
+
+}
+
+.spanInput input {
+  width: 275px;
+  height: 32px;
+}
+
+.spanInputRight input {
+  width: 275px;
+  height: 32px;
+}
+
+.textArea {
+  width: 755px;
+  /* height: 250px; */
+  float: left;
+}
+
+.textArea textarea {
+  width: 755px;
+  max-height: 200px;
+  /* max-height:193px; */
+}
+
+.listContent {
+  float: left;
+  width: 1920px
+}
+
+.Electronics_order_update {
+  margin-top: 10px;
+  /* margin-left: 7px; */
+}
+
+/* 使用div重新布局 */
+/* 大的页面样式 */
+.Basic_Content_Wrap:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.Basic_Content_Wrap>div {
+  float: left;
+  width: 320px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+/* 奇数行 */
+.Basic_Content_Wrap>div:nth-child(odd) {
+  background: #c6ecf9;
+}
+
+.Basic_Content_Wrap>.Textarea_title {
+  height: 72px;
+  line-height: 72px;
+}
+
+.Basic_Content_Wrap>.Textarea_Content {
+  width: 1600px;
+  height: 72px;
+}
+
+.ContentBasic,
+.ContentBattle,
+.ContentParams,
+.ContentXHParams {
+  width: 1920px;
+}
+
+.ContentSignMsg {
+  width: 1920px;
+}
+
+.closeBtn {
+  width: 1920px;
+  display: none;
+}
+
+/* //目标库 */
+.select_condition_targetDialog_Target {
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.select_condition_targetDialog_Target>div {
+  width: 50%;
+}
+
+.select_condition_targetDialog_Target>div>span {
+  width: 32%;
+  margin-right: 15px;
+  display: inline-block;
+  text-align: right;
+}
+
+.select_condition_targetDialog_Target>div>div {
+  display: inline-block;
+}
+
+.l-table-row-active {
+  background: #e6f7ff;
+}

@@ -1,0 +1,133 @@
+//radio按钮
+:global(.ant-radio-inner) {
+  width: 13px;
+  height: 13px;
+  background: none;
+  color: #666666;
+  font-size: 12px;
+
+  &:after {
+    height: 5px;
+    width: 5px;
+  }
+}
+
+//表格
+.myClass {
+  :global {
+    .ant-table-small
+      > .ant-table-content
+      > .ant-table-scroll
+      > .ant-table-header
+      > table
+      > .ant-table-thead
+      > tr
+      > th {
+      padding: 5px 5px;
+      text-align: center;
+      font-size: 14px;
+      color: #333333;
+      height: 30px;
+      line-height: 16px;
+      background: #d0dae5;
+    }
+
+    .ant-table-tbody > tr > td {
+      font-size: 14px;
+      color: #666666;
+      height: 30px;
+      // background: #E3EAF4;
+    }
+
+    .ant-table-thead > tr > th .ant-table-tbody > tr > td {
+      padding: 5px 5px;
+      text-align: center;
+    }
+  }
+}
+
+//奇偶行变色
+.odd {
+  :global {
+    background: #ffffff 100%;
+  }
+}
+
+.even {
+  :global {
+    background: #f9fafc 100%;
+  }
+}
+
+//输入框
+// :global(.ant-input) {
+//    width: 100px;
+//    line-height:16px;
+//    border:1px solid #D9D9D9;
+//    border-radius:1px;
+// }
+.leftModel {
+  :global(.ant-input) {
+    width: 235px;
+    height: 32px;
+    line-height: 16px;
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;
+  }
+}
+
+.rightModel {
+  :global(.ant-input) {
+    width: 235px;
+    height: 32px;
+    line-height: 16px;
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;
+  }
+}
+
+.FirstBox {
+  :global(.ant-input) {
+    width: 320px;
+    height: 32px;
+    line-height: 16px;
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;
+  }
+}
+
+.Edit__ContentBasicMin___H4q4x :global(.ant-input) {
+  width: 100px;
+  line-height: 16px;
+  border: 1px solid #d9d9d9;
+  border-radius: 1px;
+}
+
+:global(.ant-input-affix-wrapper .ant-input:focus) {
+  border: none;
+  border-bottom: 1px solid white !important;
+  box-shadow: none;
+}
+
+//复选框
+:global(.ant-checkbox-inner) {
+  width: 13px;
+  height: 13px;
+  background: none;
+  background-color: none;
+
+  &:after {
+    // top: -0.2px;
+    // left: 3.9px;
+    top: 4.8px;
+    left: 1.9px;
+  }
+}
+
+:global(.ant-checkbox-checked .ant-checkbox-inner) {
+  background-color: #1f95ff;
+}
+
+
+
+

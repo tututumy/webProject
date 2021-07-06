@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app>
+  <display-name>Welcome to Tomcat</display-name>
+  <description>
+     Welcome to Tomcat
+  </description>
+
+  <servlet>
+        <servlet-name>uploadConfig</servlet-name>
+        <servlet-class>
+          cn.geobeans.util.UploadServlet
+        </servlet-class>
+        <init-param>
+            <param-name>junconfig</param-name>
+            <param-value>G:\apache-tomcat-8.5.33\webapps\h5mapjb\config-zh\junplotlist.json</param-value>
+        </init-param>
+  </servlet>
+  <servlet>
+        <servlet-name>uploadJBFile</servlet-name>
+        <servlet-class>
+          cn.geobeans.util.UploadServlet
+        </servlet-class>
+        <init-param>
+            <param-name>junconfig</param-name>
+            <param-value>G:\apache-tomcat-8.5.33\webapps\h5mapjb\plot\France_Symbol.ttf</param-value>
+        </init-param>
+  </servlet>
+  
+  <servlet-mapping>
+        <servlet-name>uploadConfig</servlet-name>
+        <url-pattern>/uploadConfig</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+        <servlet-name>uploadJBFile</servlet-name>
+        <url-pattern>/uploadJBFile</url-pattern>
+  </servlet-mapping>
+ 
+
+     <mime-mapping>
+        <extension>htm</extension>
+        <mime-type>text/html;charset=gb2312</mime-type>
+    </mime-mapping>
+ 
+</web-app>

@@ -1,0 +1,25 @@
+.field{
+  margin-top: 15px;
+  /*margin-right: 10px;*/
+  min-height:50px;
+  position:relative;
+  border:1px solid #bdcddc;
+  padding:10px 10px 10px 10px;
+  border-radius:2px;
+}
+.fieldTitle{
+  padding-left: 10px;
+  padding-right: 10px;
+  position:absolute;
+  top:-12px;
+  height:21px;
+  line-height:21px;
+  /* background:#E3EAF4; */
+  background:#fff;
+  text-align:center;
+}
+.fieldContent{
+  width: 100%;
+  margin-top:10px;
+  display:inline-block
+}

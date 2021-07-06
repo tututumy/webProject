@@ -1,0 +1,537 @@
+/* 清除浮动 */
+.clearFloat:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.content_box{
+  width:1920px;
+  height:975px;
+  margin:5px 0;
+  background:#e3eaf4;
+}
+
+.Side {
+  float: left;
+  width: 300px;
+  height: 2000px;
+}
+
+.Basic {
+  border: 2px solid #cbe5f7;
+  background: #ebf1f3;
+  height: 900px;
+  box-shadow: 15px 10px 8px #c8ccce;
+  width: 300px;
+  color: #bbc4da;
+  font-size: 14px;
+  line-height: 17px;
+  box-shadow: 15px 10px 8px #c8ccce;
+}
+
+.checkStyle {
+  float: left;
+  width: 250px;
+  margin: 10px 10px;
+}
+
+.BasicFodder {
+  font-size: 16px;
+  background: #d6e4ef;
+  color: #26adda;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.FodderType {
+  float: left;
+  width: 100%;
+}
+
+.FodderTypeTitle {
+  font-size: 16px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  color: #000;
+  /* color:#bbc4da; */
+
+  font-size: 14px;
+  line-height: 17px;
+  background: #c8ccce;
+}
+
+.FodderTypeChild {
+  float: left;
+}
+
+
+.Content {
+  float: left;
+  width: 1562px;
+  height: 350px;
+  margin-top: 0px;
+  border: 1px solid black;
+}
+
+.contentOut {
+  float: left;
+  width: 1560px;
+  height: 222px;
+  margin-left: 300px;
+  margin-top: -100px;
+  border: 1px solid black;
+
+}
+
+.contentOuts {
+  float: left;
+  width: 1560px;
+  height: 649px;
+  margin-left: 300px;
+  border: 1px solid black;
+  margin-top: 0px
+}
+
+.contentOutlast {
+  float: left;
+  width: 1560px;
+  height: 632px;
+  margin-left: 300px;
+  border: 1px solid black;
+  margin-top: 0px
+}
+
+.textArer {
+  border: 1px solid black;
+  margin-top: 103px;
+  width: 1562px;
+  height: 350px;
+}
+
+.FodderRadar {
+  font-size: 16px;
+  background: #d6e4ef;
+  color: #26adda;
+  width: 1920px;
+  height: 30px;
+  text-align: left;
+  padding: 5px 0 0 20px;
+}
+
+.ContentBasic {
+  float: left;
+  width: 1920px;
+}
+/* 清除浮动 */
+.ContentBasic:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+.ContentSpecial {
+  float: left;
+  width: 1920px;
+  height: 30px;
+  margin-top:60px;
+}
+
+.ContentBattle {
+  float: left;
+  width: 1562px;
+  height: 231px;
+}
+
+.ContentBattler {
+  float: left;
+  width: 1562px;
+  height: 111px;
+}
+
+.ContentBattles {
+  float: left;
+  width: 1562px;
+  height: 272px;
+}
+
+.ContentTable {
+  float: left;
+  width: 1560px;
+  height: 620px;
+}
+
+.ContentParams {
+  width: 1920px;
+  margin-top: 0px;
+}
+
+.tableBorder {
+  padding: -10px 10px 5px 10px;
+  margin: 0px 0;
+  float: left;
+  border: 1px solid black;
+}
+
+.tableRow {
+  width: 1920px;
+  height: 40px;
+}
+
+.tableCol {
+  width: 320px;
+  height: 32px;
+  text-align: center;
+  background: #c6ecf9;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+.tableColcontent {
+  width: 320px;
+  height: 32px;
+  text-align: center;
+  background: #f5fdfd;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+.tableCrossCol {
+  height: 40px;
+  text-align: left;
+  background: #f5fdfd;
+  padding-left: 20px;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+.tableColSketch {
+  width: 260px;
+  height: 120px;
+  text-align: center;
+  background: #c6ecf9;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+.CrossRow {
+  width: 260px;
+  height: 120px;
+  text-align: left;
+  background: #f5fdfd;
+  padding-left: 20px;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+.Pattern {
+  height: 40px;
+  width: 100px;
+  float: left;
+  border: #c8ccce;
+  text-align: center;
+  line-height: 40px;
+}
+
+.Pattern span {
+  font-size: 20px;
+}
+
+.head {
+  padding-right: 20px;
+  height: 60px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  background: #e3eaf4;
+  position: fixed;
+  z-index: 1051;
+  margin-bottom:46px;
+  width: 1920px;
+  box-shadow:0 2px 5px #ddd;
+}
+
+.objective {
+  float: left;
+  width: 1562px;
+  height: 300px;
+}
+
+.popFodderType {
+  float: left;
+  width: 620px;
+  height: 40px;
+}
+
+.popFodderTypeMax {
+  width: 980px;
+  
+}
+.popFodderTypeMax:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.choicefodder {
+  float: left;
+  width: 620px;
+  height: 40px;
+  text-align: center;
+}
+
+.uploadtable {
+  width: 980px;
+  text-align: center;
+}
+
+.popselect {
+  float: left;
+  width: 280px;
+  height: 40px;
+}
+
+
+.Frequency {
+  background: #dad8d8;
+  width: 1500px;
+  margin-left: 25px;
+  margin-top: 20px;
+  height: 50px;
+  line-height: 50px;
+
+}
+
+.specilFrequency {
+  background: #dad8d8;
+  width: 1500px;
+  margin-left: 25px;
+  height: 50px;
+  line-height: 50px;
+
+}
+
+.FrequencyTable {
+  width: 1500px;
+  margin-left: 25px;
+}
+
+.subhead {
+  padding: 5px 5px 5px 5px;
+  background: #dad8d8;
+  width: 1920px;
+  float: left;
+}
+
+.activityObjective {
+  padding: 5px 5px 5px 5px;
+  background: #dad8d8;
+  width: 750px;
+  float: left;
+}
+
+.BasicSituation {
+  padding: 5px 5px 5px 5px;
+  background: #dad8d8;
+  width: 750px;
+  float: left;
+  margin-left: 59px
+}
+
+
+.character {
+  border: 1px solid black;
+  width: 1560px;
+  height: 190px;
+  margin-top: 0px;
+  float: left;
+}
+
+.plant {
+  border: 1px solid black;
+  width: 1560px;
+  height: 200px;
+  margin-top: 31px;
+}
+
+.plantname {
+  width: 340px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  background-color: #666666;
+  margin-left: 100px;
+  margin-top: 40px;
+  padding-top: 0px
+}
+
+.equipplantname {
+  width: 340px;
+  height: 45px;
+  float: left;
+}
+
+.paramsTable {
+  float: left;
+  margin-top: 0px;
+  height: 656px;
+  width: 1560px;
+  border: 1px solid black;
+
+}
+
+.subject {
+  width: 1920px;
+  margin-left: 0px;
+  margin-top: 0px;
+  float: left;
+  position: relative;
+}
+
+.introduce {
+  border: 1px solid black;
+  height: 270px;
+  width: 750px;
+  float: left;
+
+}
+
+.introduceTwo {
+  border: 1px solid black;
+  height: 270px;
+  width: 750px;
+  float: left;
+  margin-left: 59px
+}
+
+.list {
+  padding: 5px 5px 5px 5px;
+  background: #dad8d8;
+  width: 1920px;
+  float: left;
+  height: 100px;
+  line-height: 100px;
+}
+
+.Button {
+  margin-right: 0px;
+  width: 180px;
+  float: right;
+  height: 69px;
+}
+
+.Statistics {
+  margin-left: 10px
+}
+
+.listContent {
+  float: left;
+  width: 1920px
+}
+
+/* 使用div重新布局 */
+/* 大的页面样式 */
+.Basic_Content_Wrap:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.Basic_Content_Wrap>div {
+  float: left;
+  width: 320px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+/* 奇数行 */
+.Basic_Content_Wrap>div:nth-child(odd) {
+  background: #c6ecf9;
+}
+
+.Basic_Content_Wrap>.Textarea_title {
+  height: 72px;
+  line-height: 72px;
+}
+
+.Basic_Content_Wrap>.Textarea_Content {
+  width: 1600px;
+  height: 72px;
+}
+
+.ContentBasic,
+.ContentBattle,
+.ContentParams,
+.ContentXHParams {
+  width: 1920px;
+}
+
+.ContentSignMsg {
+  width: 1920px;
+}
+
+.closeBtn {
+  width: 1920px;
+  display: none;
+}
+
+/* //目标库 */
+.select_condition_targetDialog_Target {
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.select_condition_targetDialog_Target>div{
+  width:50%;
+}
+.select_condition_targetDialog_Target>div>span {
+  width:32%;
+  margin-right: 15px;
+  display: inline-block;
+  text-align: right;
+}
+
+.select_condition_targetDialog_Target>div>div {
+  display: inline-block;
+}
+
+.ContentParamsTwo{
+  width:100%;
+  height:898px;
+  display:flex;
+  justify-content: space-around;
+}
+
+.ContentParamsTwo>div{
+  width:30%;
+  height:300px;
+  border:1px solid red;
+}
+
+.BasicSituation {
+  background: #dad8d8;
+  width: 30%;
+  float:left;
+  margin-left:48px;
+}
+
+.introduce{
+  width:30%;
+  float:left;
+  margin-left:48px;
+  border:1px solid #d9d9d9;
+}
+
+.introduceBox{
+  width:100%;
+  margin-bottom:5px;
+}
+
+.introduceBox:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+

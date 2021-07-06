@@ -1,0 +1,74 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: sueRimn
+ * @Date: 2020-06-09 08:51:21
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-06-10 16:19:38
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" localhost content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <title>情报整编软件</title>
+  <!-- <link rel="icon" href="/favicon.ico" type="image/x-icon" /> -->
+  <!-- <link rel="stylesheet" href="/LK-0313036/replace.css" /> -->
+  <!-- 本地版本 -->
+  <!-- <link rel="stylesheet" href="replace.css" />
+  <link rel="stylesheet" href="js/gmap/gmap.css" />
+  <link rel="stylesheet" href="plot/DrawHelper.css" />
+  <link rel="stylesheet" href="iconfont/iconfont.css" />
+  <script src="js/gmap/gmap.js"></script>
+  <script src="plot/H5DrawSymbol3.6.3.min.js"></script>
+  <script src="plot/H5SymbolView3.6.3.min.js"></script>
+  <script src="plotlocalhostlib2.js?time=20180905" libpath="/plot/lib/" include="jquery,layer"></script> -->
+
+
+  <!-- uop版本 -->
+  <link rel="styleslocalhostLK-0313036/replace.css" />
+  <link rel="stylesheet" href="/LK-0313036/js/gmap/gmap.css" />
+  <link rel="stylesheet" href="/LK-0313036/plot/DrawHelper.css" />
+  <link rel="stylesheet" href="/LK-0313036/iconfont/iconfont.css" />
+  <script src="/LK-0313036/js/gmap/gmap.js"></script>
+  <script src="/LK-0313036/plot/H5DrawSymbol3.6.3.min.js"></script>
+  <script src="/LK-0313036/plot/H5SymbolView3.6.3.min.js"></script>
+  <script src="/LK-0313036/plot/lib/include-lib2.js?time=20180905" libpath="/LK-0313036/plot/lib/"
+    include="jquery,layer"></script>
+
+  <script type="text/javascript">
+    window.getCookie = cname => {
+      let sign;
+      let name = cname + "=";
+      let ca = document.cookie.split(";");
+      for (var i = 0; i < ca.length; i++) {
+        var c = ca[i].trim();
+        if (c.indexOf(name) === 0) {
+          sign = c.substring(name.length, c.length);
+          const zh = "情报整编软件";
+          const fr = "Logiciel de réorganisation d'informations";
+          const en = "Info reorganization software";
+          document.title = sign === 'fr_FR' ? fr : sign === 'en_EN' ? en : zh;
+          // if (sign === "fr_FR") {
+          //   document.title = fr;
+          // } else if (sign === "zh_ZH") {
+          //   document.title = zh;
+          // } else if (sign === "en_EN") {
+          //   document.title = en;
+          // }
+        }
+      }
+    };
+
+    getCookie("uop.locale");
+
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+
+</html>

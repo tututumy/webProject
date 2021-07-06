@@ -1,0 +1,10 @@
+
+html, body{
+  font-family: "Microsoft YaHei" !important;
+}
+#root {
+  width: 1920px;
+  height: 1035px;
+  float: left;
+  overflow-x:hidden;
+}

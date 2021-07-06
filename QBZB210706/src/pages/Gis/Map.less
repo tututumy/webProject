@@ -1,0 +1,261 @@
+.map {
+  position: relative;
+  .toolbar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45px;
+    height: 100%;
+    background-color: #D0DAE5;
+    z-index: 9998;
+    cursor: initial;
+    overflow-y: auto;
+    overflow-x: hidden;
+    .block {
+      height: 35px;
+      margin: 5px;
+      font-size: 26px;
+      text-align: center;
+      line-height: 35px;
+      color: #909CB9;
+      cursor: pointer;
+      &:hover {
+        background-color: #E3EAF4;
+      }
+      &:active, &.active {
+        color:  #2884D8;
+        background-color: #E3EAF4;
+      }
+    }
+  }
+  :global {
+    .ant-popover-arrow {
+      background-color: #fff;
+    }
+    .ant-popover-inner-content {
+      padding: 2px 7px;
+    }
+    .ant-menu {
+      border: none;
+      width: calc(~"100% + 14px");
+      margin: -2px -7px;
+      .ant-menu-item {
+        height: 24px;
+        line-height: 24px;
+        font-size: 12px;
+        padding: 0;
+        margin: 0 !important;
+        padding: 0 7px;
+      }
+    }
+    .legend {
+      padding: 6px 8px;
+      font: 14px/16px Arial, Helvetica, sans-serif;
+      background: rgba(255, 255, 255, 0.8);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      border-radius: 3px;
+      text-align: left;
+      line-height: 18px;
+      color: #555;
+    }
+    .legend i {
+      width: 28px;
+      height: 18px;
+      float: left;
+      margin-right: 8px;
+      opacity: 0.7;
+    }
+    .infoview {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      padding: 10px 15px;
+      border-radius: 4px;
+      border: 1px solid rgba(128,128,128,.5);
+      color: #fff;
+      background: rgba(0,0,0,.4);
+      box-shadow: 0 3px 14px rgba(128,128,128,.5);
+      z-index: 9999
+    }
+    .sectionChars{
+      width:90%;
+      height:200px;
+      left:5%;
+      top:auto;
+      bottom:10px;
+      display:block;
+    }
+    .classSpin{
+      color: #2884D8;
+      position: absolute;
+      left: 50%;
+      top: 40%;
+      z-index: 999;
+      .ant-spin-dot {
+        font-size: 40px;
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+  :global {
+    .gmap-div-icon {
+      border: none;
+      color: #666;
+      font-size: 12px;
+      width: auto !important;
+      height: auto !important;
+      white-space: nowrap;
+      cursor: initial;
+      background-color: transparent;
+    }
+    .gmap-editing-icon {
+      width: 12px !important;
+      height: 12px !important;
+      background-color: #fff;
+      margin-left: -6px !important;
+      margin-top: -6px !important;
+      border: 2px solid #1788F3;
+      border-radius: 50%;
+    }
+  }
+  .circle {
+    width: 12px !important;
+    height: 12px !important;
+    background-color: #fff;
+    border: 2px solid #1788F3;
+    border-radius: 50%;
+  }
+  .circleRise{
+    width: 12px !important;
+    height: 12px !important;
+    background-color: #fd6b32;
+    border: 2px solid #fd6b32;
+    border-radius: 30%;
+  }
+  .commonColor1{
+    width: 35px;
+    height:20px;
+    background: #a34c65;
+  }
+  .smallCircle, .smallRedCircle {
+    width: 6px !important;
+    height: 6px !important;
+    background-color: #fff;
+    border: 2px solid #2884D8;
+    border-radius: 50%;
+  }
+  .smallRedCircle {
+    border-color: #F5222D;
+  }
+  .text {
+    width: 12px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+  }
+  .marker {
+    padding: 0 6px;
+    line-height: 18px;
+    background-color:#fff;
+    border: 1px solid #BDCDDC;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.20);
+    border-radius: 2px;
+  }
+  .endMarker {
+    border: 1px solid #BDCDDC;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.20);
+    border-radius: 2px;
+    padding: 0 6px;
+    color: #333;
+    line-height: 28px;
+    background-color: #fff;
+    .number {
+      color: #388ddb;
+    }
+    .bar {
+      display: inline-block;
+      width: 2px;
+      height: 21px;
+      margin: 0 2px 0 4px;
+      background-color: #BDCDDC;
+      vertical-align: middle;
+      opacity: 0.7;
+    }
+    .close {
+      color: rgb(40, 132, 216);
+      font-size: 14px;
+      cursor: pointer;
+      &:hover {
+        color: rgb(80, 162, 230);
+      }
+      &:active {
+        color: rgb(25, 99, 179);
+      }
+    }
+    .pBox{
+      overflow: hidden;
+      width: 110px;
+      margin-bottom: 7px !important;
+      margin-left: 10px;
+    }
+    .pNum{
+      display: block;
+      float: left;
+      line-height: 20px;
+      margin-left: 6px;
+    }
+    .common{
+      float: left;
+      width: 35px;
+      height:20px;
+      display: block;
+    }
+    .color1{
+      background: #a34c65;
+    }
+    .color2{
+      background: #d04c67;
+    }
+    .color3{
+      background: #ea5e60;
+    }
+    .color4{
+      background: #fc8269;
+    }
+    .color5{
+      background: #fcac74;
+    }
+    .color6{
+      background: #fdc881;
+    }
+    .color7{
+      background: #fae29f;
+    }
+    .color8{
+      background: #fde39e;
+    }
+
+  }
+  .endMarkerR{
+    text-align: right;
+  }
+
+}
+
+.textArera {
+  background: rgba(255,255,255,0);
+  z-index: 401;
+  position: absolute;
+  //bottom: 0;
+  width: max-content;
+  color: red;
+  font-size: 14px;
+  font-weight: bolder;
+  right: 0;
+  margin-right: 45px;
+  display: flex;
+  bottom: 0;
+}

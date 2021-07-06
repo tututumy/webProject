@@ -1,0 +1,52 @@
+//工作模式弹出框中的样式
+.popFodderType_workpop_ZHwrap>div {
+    float: left;
+    /* width: 240px; */
+    width: 500px;
+    margin-bottom: 10px;
+    line-height: 32px;
+    text-align:right;
+  
+    :global{
+      .ant-input,.ant-select,.ant-input-number{
+        width:240px !important;
+      }
+      
+      .ant-form-item-label{
+        width:260px;
+        text-align:right;
+        line-height:32px;
+      }
+    }
+  
+  }
+
+  .popFodderType_workpop_FRwrap>div {
+    float: left;
+    /* width: 240px; */
+    width: 625px;
+    margin-bottom: 10px;
+    line-height: 32px;
+    text-align:right;
+  
+    :global{
+      .ant-input,.ant-select,.ant-input-number{
+        width:240px !important;
+      }
+      
+      .ant-form-item-label{
+        width:385px;
+        text-align:right;
+        line-height:32px;
+      }
+    }
+  
+  }
+
+  .popFodderType_workpop_ZHwrap:after,.popFodderType_workpop_FRwrap:after{
+      width:0;
+      height:0;
+      display:block;
+      content:"";
+      clear:both;
+  }

@@ -1,0 +1,291 @@
+.modal {
+  font-family: "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 12px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.65);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  list-style: none;
+  margin: 0 auto;
+  // padding-bottom: 24px;
+  width: 100%;
+  height: 100%;
+  transformorigin: -522px -82px 0px;
+
+  // :global{
+  //   .ant-select-dropdown{
+  //     z-index:1000000 !important;
+  //   }
+  // }
+}
+.modal-wrap {
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+.modal-title {
+  margin: 0;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+.modal-content {
+  position: absolute;
+  z-index: 1000;
+  left: 50%;
+  top: 50%;
+  min-width: 200px;
+  max-width: 1370px;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 2px solid #2884d8;
+  border-top: 0;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.modal-close {
+  cursor: pointer;
+  border: 0;
+  background: transparent;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  z-index: 10;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  color: #fff;
+  outline: 0;
+  padding: 0;
+  height: 30px;
+}
+.modal-close-x {
+  display: block;
+  font-style: normal;
+  vertical-align: baseline;
+  text-align: center;
+  text-transform: none;
+  text-rendering: auto;
+}
+.modal-close-x:before {
+  // content: "\E633";
+  content: "×";
+
+  display: block;
+  font-family: "anticon" !important;
+}
+.modal-close:focus,
+.modal-close:hover {
+  color: #d0dae5;
+  text-decoration: none;
+  background: transparent;
+}
+.modal-header {
+  padding: 4px 16px;
+  background: #2884d8;
+  color: #fff;
+}
+.modal-body {
+  padding: 30px 30px 20px;
+  font-size: 14px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  border: 0;
+  borderradius: 0;
+  min-height: 250px;
+}
+// .modal-footer {
+//   border-top: 1px solid #e8e8e8;
+//   padding: 10px 16px 30px;
+//   text-align: center;
+// }
+.modal-footer {
+  // border-top: 1px solid #e8e8e8;
+  padding: 0px 16px 30px;
+  text-align: center;
+}
+.modal-footer button {
+  border: 1px solid transparent;
+}
+.modal-footer button + button {
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+.modal-footer button:first-child {
+  background: #d0dae5;
+  color: #666666;
+}
+.modal-footer button:first-child:hover {
+  background: #d0dae5;
+  color: #2d81ce;
+  border-color: #2d81ce;
+}
+.modal-footer button:first-child:focus {
+  background: #d0dae5;
+  color: #1c6fbc;
+  border-color: #1c6fbc;
+}
+.modal-footer button:nth-child(2) {
+  background: #2884d8;
+  color: #ffffff;
+}
+.modal-footer button:nth-child(2):hover {
+  background: #3d90db;
+  color: #ffffff;
+}
+.modal-footer button:nth-child(2):focus {
+  background: #2376c1;
+  color: #ffffff;
+}
+.modal.zoom-enter,
+.modal.zoom-appear {
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-transform: none;
+  transform: none;
+  opacity: 0;
+}
+.modal-mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  height: 100%;
+  z-index: 1000;
+  filter: alpha(opacity=50);
+}
+.modal-mask-hidden {
+  display: none;
+}
+.modal-open {
+  overflow: hidden;
+}
+.modal-centered {
+  text-align: center;
+}
+.modal-centered:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  width: 0;
+}
+.modal-centered .modal {
+  display: inline-block;
+  vertical-align: middle;
+  top: 0;
+  text-align: left;
+}
+.modal-centered .table-body {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.confirm .modal-header {
+  display: none;
+}
+.confirm .modal-close {
+  display: none;
+}
+.confirm .modal-body {
+  padding: 32px 32px 24px;
+}
+.confirm-body-wrapper {
+  zoom: 1;
+}
+.confirm-body-wrapper:before,
+.confirm-body-wrapper:after {
+  content: "";
+  display: table;
+}
+.confirm-body-wrapper:after {
+  clear: both;
+}
+.confirm-body .confirm-title {
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  display: block;
+  overflow: hidden;
+}
+.confirm-body .confirm-content {
+  margin-left: 38px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.65);
+  margin-top: 8px;
+}
+.confirm-body > .anticon {
+  font-size: 22px;
+  margin-right: 16px;
+  float: left;
+}
+.confirm .confirm-btns {
+  margin-top: 24px;
+  float: right;
+}
+.confirm .confirm-btns button + button {
+  margin-left: 8px;
+  margin-bottom: 0;
+}
+.confirm-error .confirm-body > .anticon {
+  color: #f5222d;
+}
+.confirm-warning .confirm-body > .anticon,
+.confirm-confirm .confirm-body > .anticon {
+  color: #faad14;
+}
+.confirm-info .confirm-body > .anticon {
+  color: #1890ff;
+}
+.confirm-success .confirm-body > .anticon {
+  color: #52c41a;
+}
+button[disabled] {
+  background: #f5f5f5 !important;
+  color: rgba(0, 0, 0, 0.25) !important;
+}
+
+.resizeR {
+  width: 10px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: w-resize;
+}
+.resizeB {
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  cursor: s-resize;
+}
+#resizeT {
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: w-resize;
+}

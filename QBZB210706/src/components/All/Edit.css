@@ -1,0 +1,593 @@
+/* 清除浮动 */
+.clearFloat:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.content_box{
+  width:1920px;
+  height:975px;
+  margin:5px 0;
+  background:#e3eaf4;
+}
+
+.Side {
+  float: left;
+  width: 300px;
+  height: 2000px;
+}
+
+.Basic {
+  border: 2px solid #cbe5f7;
+  background: #ebf1f3;
+  height: 900px;
+  box-shadow: 15px 10px 8px #c8ccce;
+  width: 300px;
+  color: #bbc4da;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.checkStyle {
+  width: 250px;
+  margin: 20px 50px;
+}
+
+.BasicFodder {
+  font-size: 16px;
+  background: #d6e4ef;
+  color: #26adda;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.FodderType {
+  float: left;
+  width: 100%;
+}
+
+.Fodder {
+  float: left;
+  font-size: 16px;
+  background: #d6e4ef;
+  color: #26adda;
+  width: 100%;
+  height: 30px;
+  text-align: left;
+  padding: 5px 0 0 20px;
+}
+
+.FodderTypeTitle {
+  font-size: 16px;
+  height: 40px;
+  text-align: center;
+  color: #000;
+
+  font-size: 14px;
+  line-height: 17px;
+  background: #c8ccce;
+}
+
+.FodderTypeCountry {
+  font-size: 16px;
+  height: 40px;
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  line-height: 17px;
+  background: #c8ccce;
+}
+
+.FodderTypeChild {
+  float: left;
+}
+
+
+.Content {
+  float: left;
+  width: 1562px;
+  height: 350px;
+  margin-top: 0px;
+}
+
+.contentOut {
+  float: left;
+  width: 1560px;
+  height: 222px;
+  margin-left: 300px;
+  margin-top: -100px;
+  border: 1px solid black;
+
+}
+
+.contentOuts {
+  float: left;
+  width: 1560px;
+  height: 649px;
+  margin-left: 300px;
+  border: 1px solid black;
+  margin-top: 0px
+}
+
+.contentOutlast {
+  float: left;
+  width: 1560px;
+  height: 632px;
+  margin-left: 300px;
+  border: 1px solid black;
+  margin-top: 0px
+}
+
+.textArer {
+  border: 1px solid black;
+  margin-top: 103px;
+  width: 1562px;
+  height: 350px;
+}
+
+.FodderRadar {
+  font-size: 16px;
+  background: #d6e4ef;
+  color: #26adda;
+  height: 30px;
+  line-height:30px;
+  text-align: left;
+  padding-left:10px;
+}
+
+.ContentBasic {
+  float: left;
+  width: 1920px;
+  background:#fff;
+}
+
+.ContentSpecial {
+  float: left;
+  width: 1920px;
+  height: 30px;
+  margin-top:60px;
+}
+
+.ContentBattle {
+  float: left;
+  width: 1562px;
+  height: 231px;
+}
+
+.ContentBattler {
+  float: left;
+  width: 1562px;
+  height: 111px;
+}
+
+.ContentBattles {
+  float: left;
+  width: 1562px;
+  height: 272px;
+}
+
+.ContentTable {
+  float: left;
+  width: 1560px;
+  height: 620px;
+}
+
+.ContentParams {
+  float: left;
+  width: 1920px;
+}
+
+.tableBorder {
+  padding: -10px 10px 5px 10px;
+  margin: 0px 0;
+  float: left;
+  border: 1px solid black;
+}
+
+.tableRow {
+  width: 1920px;
+  height: 32px;
+}
+
+.tableCol {
+  width: 320px;
+  height: 32px;
+  text-align: center;
+  background: #c6ecf9;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+.tableColcontent {
+  width: 320px;
+  height: 32px;
+  text-align: center;
+  background: #f5fdfd;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+.tableCrossCol {
+  height: 40px;
+  text-align: left;
+  background: #f5fdfd;
+  padding-left: 20px;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+.tableColSketch {
+  width: 260px;
+  height: 120px;
+  text-align: center;
+  background: #c6ecf9;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+.CrossRow {
+  width: 260px;
+  height: 120px;
+  text-align: left;
+  background: #f5fdfd;
+  padding-left: 20px;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+.Pattern {
+  height: 40px;
+  width: 100px;
+  float: left;
+  border: #c8ccce;
+  text-align: center;
+  line-height: 40px;
+}
+
+.Pattern span {
+  font-size: 20px;
+}
+
+.head {
+  text-align: right;
+  padding-right: 20px;
+  height: 60px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  background: #e3eaf4;
+  position: fixed;
+  z-index: 1051;
+  width: 1920px;
+  box-shadow: 0 2px 5px #ddd;
+}
+
+.objective {
+  float: left;
+  padding-left: 40px;
+  background:#fff;
+}
+
+.Frequency {
+  background: #dad8d8;
+  width: 1500px;
+  margin-left: 40px;
+  margin-top: 20px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.specilFrequency {
+  background: #dad8d8;
+  width: 1500px;
+  margin-left: 25px;
+  height: 50px;
+  line-height: 50px;
+
+}
+
+.FrequencyTable {
+  width: 1500px;
+  margin-left: 25px;
+}
+
+.subhead {
+  padding-left:10px;
+  background: #dad8d8;
+  width: 1920px;
+  height: 40px;
+  line-height:40px;
+}
+
+.foddersubhead {
+  float: left;
+  padding: 5px 5px 5px 5px;
+  background: #dad8d8;
+  width: 1560px;
+  height: 40px;
+}
+
+.elecsubhead {
+  padding: 5px 5px 5px 5px;
+  background: #dad8d8;
+  width: 1920px;
+  height: 45px;
+}
+
+.activityObjective {
+  padding: 5px 5px 5px 5px;
+  background: #dad8d8;
+  width: 900px;
+  float: left;
+}
+
+.BasicSituation {
+  padding: 5px 5px 5px 5px;
+  background: #dad8d8;
+  width: 900px;
+  float: left;
+  margin-left: 40px
+}
+
+.character {
+  border: 1px solid #d9d9d9;
+  width: 1560px;
+  height: 190px;
+  margin-top: 0px;
+  float: left;
+}
+
+.plant {
+  border: 1px solid black;
+  width: 1560px;
+  height: 200px;
+  margin-top: 31px;
+}
+
+.plantname {
+  width: 340px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  background-color: #666666;
+  margin-left: 100px;
+  margin-top: 40px;
+  padding-top: 0px
+}
+
+.equipplantname {
+  width: 340px;
+  height: 45px;
+  float: left;
+}
+
+.paramsTable {
+  float: left;
+  margin-top: 0px;
+  height: 656px;
+  width: 1560px;
+  border: 1px solid #d9d9d9;
+}
+
+.subject {
+  width: 1920px;
+  margin-left: 0px;
+  margin-top: 0px;
+  float: left;
+  position: relative;
+}
+
+.introduce {
+  border: 1px solid #d9d9d9;
+  height: 270px;
+  width: 900px;
+  float: left;
+  /* overflow-y: scroll; */
+}
+
+.introduceTwo {
+  border: 1px solid #d9d9d9;
+  height: 270px;
+  width: 900px;
+  float: left;
+  margin-left: 40px;
+  /* overflow-y: scroll; */
+}
+
+.list {
+  padding: 5px 5px 5px 5px;
+  background: #dad8d8;
+  width: 1920px;
+  float: left;
+  height: 100px;
+  line-height: 100px;
+}
+
+.Button {
+  margin-right: 0px;
+  width: 180px;
+  float: right;
+  height: 69px;
+}
+
+.Statistics {
+  /* margin-top: -40px; */
+  margin-left: 10px
+}
+
+.listContent {
+  float: left;
+  width: 1920px
+}
+
+.popFodderType {
+  float: left;
+  width: 600px;
+  height: 40px;
+}
+
+.choicefodder {
+  float: left;
+  width: 605px;
+  height: 40px;
+  text-align: center;
+}
+
+.uploadtable {
+  float: left;
+  /* width: 1000px; */
+  width: 1130px;
+  text-align: center;
+}
+
+.popselect {
+  float: left;
+  width: 280px;
+  height: 40px;
+}
+
+.drag {
+  width: 1560px;
+  height: 100px;
+}
+
+.fujian {
+  padding: 5px 5px 5px 20px;
+  width: 1560px;
+  height: 100px;
+  float: left;
+  border: 1px solid black;
+  text-align: center;
+}
+
+
+/* 相关资料样式 */
+.subhead_ralateMsg {
+  width: 900px;
+  height: 40px;
+  line-height: 30px;
+  background: #dad8d8;
+}
+
+/* 图片部分样式*/
+.imgLeft,
+.imgRight {
+  width: 30px;
+  height: 300px;
+  background: rgba(0, 0, 0, .3);
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  line-height: 300px;
+  cursor: pointer;
+}
+
+.imgLeft {
+  left: 0;
+}
+
+.imgRight {
+  right: 0;
+}
+
+
+/* 使用div重新布局 */
+/* 大的页面样式 */
+.Basic_Content_Wrap:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.Basic_Content_Wrap>div {
+  float: left;
+  width: 320px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+/* 奇数行 */
+.Basic_Content_Wrap>div:nth-child(odd) {
+  background: #c6ecf9;
+}
+
+.Basic_Content_Wrap>.Textarea_title {
+  height: 72px;
+  line-height: 72px;
+}
+
+.Basic_Content_Wrap>.Textarea_Content {
+  width: 1600px;
+  height: 72px;
+}
+
+.ContentBasic,
+.ContentBattle,
+.ContentParams,
+.ContentXHParams {
+  width: 1920px;
+}
+
+.ContentSignMsg {
+  width: 1920px;
+}
+
+.closeBtn {
+  width: 1920px;
+  display: none;
+}
+
+.relateMsg_Con{
+  display:flex;
+  
+}
+.relateMsg_Con>div{
+  width: 900px;
+  min-height: 300px;
+  float: left;
+  margin-left: 35px;
+}
+.relateMsg_Con_Min>div{
+  width: 900px;
+  min-height: 300px;
+  float: left;
+  margin-left: 22px;
+}
+
+.relateMsg_Con_Min:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* //目标库 */
+.select_condition_targetDialog_Target {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.select_condition_targetDialog_Target>div{
+  width:50%;
+}
+.select_condition_targetDialog_Target>div>span {
+  width:32%;
+  margin-right: 15px;
+  display: inline-block;
+  text-align: right;
+}
+
+.select_condition_targetDialog_Target>div>div {
+  display: inline-block;
+}
+
+.ContentBasic_wrap:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.ContentBasic_wrap{
+  background:#fff;
+  padding-bottom:5px;
+}

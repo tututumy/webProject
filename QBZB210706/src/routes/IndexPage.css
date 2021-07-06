@@ -1,0 +1,206 @@
+
+.normal {
+  margin-top: 3em;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+
+.welcome {
+  height: 328px;
+  background: url(../assets/yay.jpg) no-repeat center 0;
+  background-size: 388px 328px;
+}
+
+.list {
+  font-size: 1.2em;
+  margin-top: 1.8em;
+  list-style: none;
+  line-height: 1.5em;
+}
+
+.list code {
+  background: #f7f7f7;
+}
+
+.Info{
+  width:1920px;
+  height:1080px;
+  overflow:hidden;
+}
+.Info:after{
+  display:block;
+  content:'';
+  clear:both;
+  height:0px;
+}
+.MenuBar{
+    width: 1920px;
+    height: 45px;
+    background: #2884d8;
+     position: fixed;
+    z-index: 1051;
+    top: 0; 
+}
+.MenuBarBottom{
+    float: left;
+    width: 1920px;
+    height: 30px;
+    background: #e2efed;
+    position: fixed;
+    z-index: 995;
+    bottom: 0;
+}
+.MBContent{
+  width:1920px;
+  height:30px;
+  background-color:#E2E7ED;
+  line-height:30px;
+  color:#909CB9;
+  font-size:12px;
+}
+.MenuTitle{
+  font-family: 'Arial', '\5FAE\8F6F\96C5\9ED1';
+  float:left;
+  height: 45px;
+  line-height:45px;
+  margin-left:20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #C7DCFF;
+}
+
+.MenuLogout{
+  float:right;
+  width:160px;
+  height: 45px;
+  padding-top: 10px;
+}
+
+.imagSize{
+  width: 28px;
+  height: 28px;
+  margin-top:7px;
+}
+.return_fr{
+  float: right;
+  line-height: 20px;
+  padding-top: 5px;
+  margin: 0 30px 0  1000px;
+}
+.return_zh{
+  float: right;
+  line-height: 20px;
+  padding-top: 5px;
+  /* margin: 0 30px 0  1160px; */
+}
+
+/* Menu */
+.menu{
+  /* width:60%; */
+  float: left;
+  height: 40px;
+  margin-top:5px;
+}
+.menu>ul{
+  width: 100%;
+  padding:0;
+  list-style:none;
+  padding-left:85px;
+}
+.menu>ul a,.help{
+  color: #ffffff;
+  text-decoration: none;
+}
+.menu>ul a>li,.help{
+  float:left;
+  padding:0 15px;
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+  /*  */
+  
+  color: #DAEDEE;
+  line-height: 40px;
+}
+.help{
+  cursor:pointer;
+  margin-left:2px;
+}
+.content{
+  height:1035px;
+  margin-top:45px;
+}
+.content:after{
+  display:block;
+  content:'';
+  clear:both;
+  height:0px;
+}
+.clearFix>div{
+  float:left;
+}
+
+.clearFix:after,.clearFix a:after{
+  display:block;
+  content:'';
+  clear:both;
+  height:0px;
+}
+
+/* 底部状态条 */
+.MBContentFirst{
+  margin-left:15px;
+}
+.MBContentSecond{
+  margin-left:100px;
+}
+
+.languageChinese{
+  display: inline-block;
+  position: relative; 
+  left: 90%;
+  top: -46px;
+}
+.languageChinese span{
+  display: inline-block;
+  width: 40px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.languagFerench{
+  display: inline-block;
+  position: relative; 
+  left: 85%;
+  top: -46px;
+}
+.languagFerench span{
+  display: inline-block;
+  width: 65px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.menuRight{
+  float:right;
+  /* width:398px; */
+}
+
+.languageBox{
+  color:#fff;
+  float:left;
+  line-height:45px;
+}
+.languageBox span{
+  margin-left:15px;
+}
+.imgBox{
+  float:right;
+  margin-right:20px;
+  margin-top:2px;
+  cursor:pointer;
+}

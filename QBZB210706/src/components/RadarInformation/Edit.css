@@ -1,0 +1,1088 @@
+/* 清除浮动 */
+.clearFloat:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.leftModelBox {
+  float: left;
+}
+
+.leftModelBox:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.Side {
+  float: left;
+  width: 300px;
+  height: 2000px;
+}
+
+.Basic {
+  border: 2px solid #cbe5f7;
+  background: #ebf1f3;
+  height: 900px;
+  /* -webkit-box-shadow: 15px 10px 8px #c8ccce; */
+  box-shadow: 15px 10px 8px #c8ccce;
+  width: 300px;
+  color: #bbc4da;
+
+  font-size: 14px;
+  line-height: 17px;
+  box-shadow: 15px 10px 8px #c8ccce;
+}
+
+.checkStyle {
+  float: left;
+  width: 250px;
+  margin: 10px 10px;
+}
+
+.BasicFodder {
+  font-size: 16px;
+  background: #d6e4ef;
+  color: #26adda;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.FodderType {
+  float: left;
+  width: 100%;
+}
+
+.FodderTypeTitle {
+  font-size: 16px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  color: #000;
+
+  font-size: 14px;
+  line-height: 17px;
+  background: #c8ccce;
+}
+
+.FodderTypeChild {
+  float: left;
+}
+
+.FodderRadar {
+  font-size: 16px;
+  background: #d6e4ef;
+  color: #26adda;
+  width: 1920px;
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.FodderRadar span {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.FodderTitle {
+  float: left;
+  font-size: 14px;
+  background: #dad8d8;
+  color: rgba(0, 0, 0, 0.65);
+  width: 1920px;
+  height: 35px;
+  text-align: left;
+  padding: 5px 0 0 15px;
+}
+
+.tableRow {
+  width: 1920px;
+  height: 32px;
+}
+
+
+.drag {
+  width: 1560px;
+  height: 100px;
+  background: #c6ecf9;
+}
+
+
+
+.ContentXHParams {
+  width: 1920px;
+}
+
+.ContentZone {
+  width: 1920px;
+  height:975px;
+  position: relative;
+  overflow: hidden;
+  padding:5px 0;
+  background:#fff;
+}
+
+.ContentState {
+  width: 1920px;
+  height: 35px;
+  margin: 10px 0;
+  box-shadow: 1px 2px 5px #ddd;
+}
+
+.ContentBasic {
+  width: 1920px;
+}
+
+.ContentParams {
+  width: 1920px;
+  margin-bottom: 10px;
+}
+
+.ContentCommit {
+  float: left;
+  width: 1920px;
+  height: 200px;
+}
+
+.ContentTable {
+  float: left;
+  width: 1920px;
+}
+
+.ContentPlant {
+  float: left;
+  width: 1920px;
+  height: 222px;
+}
+
+.ContentPBasic {
+  float: left;
+  width: 1562px;
+  height: 111px;
+}
+
+.ContentPSkill {
+  float: left;
+  width: 1562px;
+  height: 272px;
+}
+
+.ContentTarget {
+  float: left;
+  width: 1920px;
+  height: 481px;
+}
+
+.ContentTargetActive {
+  float: left;
+  width: 1920px;
+  height: 900px;
+}
+
+.ContentRadiation {
+  float: left;
+  width: 1920px;
+  height: 1030px;
+}
+
+.TargetParams {
+  float: left;
+  width: 1920px;
+  height: 690px;
+}
+
+.subhead {
+  /* padding: 5px 5px 5px 5px; */
+  height: 40px;
+  line-height: 40px;
+  background: #dad8d8;
+  width: 1920px;
+  /* float: left; */
+}
+
+.subheadJSON {
+  height: 40px;
+  line-height: 32px;
+  background: #dad8d8;
+  width: 100%;
+}
+
+.subhead :after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.subheadAdd {
+  height: 40px;
+  line-height: 40px;
+  background: #dad8d8;
+  width: 1920px;
+}
+
+.freqbw {
+  float: left;
+  border: 1px solid black;
+  width: 1920px;
+  height: 190px;
+}
+
+.character {
+  float: left;
+  width: 750px;
+  height: 170px;
+  margin-top: 20px;
+}
+
+.charactertable {
+  float: left;
+  width: 750px;
+  height: 170px;
+  margin-top: 40px;
+}
+
+.freqcharacter {
+  float: left;
+  width: 700px;
+  height: 45px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.freqcharactername {
+  float: left;
+  width: 120px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  background-color: #c8edf9;
+  margin-left: 50px;
+}
+
+.freqcharacternabw {
+  float: left;
+  width: 120px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  background-color: #c8edf9;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+.freqcharacterinput {
+  float: left;
+  width: 250px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+}
+
+.freqcharacterbtn {
+  float: left;
+  width: 40px;
+  height: 45px;
+  width: 60px;
+  line-height: 45px;
+  margin-left: 50px;
+}
+
+.contentConcoct {
+  float: left;
+  width: 1920px;
+  height: 150px;
+}
+
+.Concoct {
+  float: left;
+  border: 1px solid black;
+  width: 1920px;
+  height: 150px;
+}
+
+.Concoctcharacter {
+  float: left;
+  width: 420px;
+  height: 45px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.tableBorder {
+  float: left;
+  /* height: 270px; */
+  width: 1920px;
+}
+
+.tableBorderCharacter {
+  float: left;
+  height: 183px;
+}
+
+.TargetValue {
+  float: left;
+  width: 1920px;
+  height: 90px;
+}
+
+.Targetarea {
+  float: left;
+  width: 1920px;
+  height: 250px;
+}
+
+.targetname {
+  float: left;
+  width: 260px;
+  height: 90px;
+  text-align: center;
+  line-height: 90px;
+  background-color: #c8edf9;
+  border-bottom: 2px solid #a9a9a9;
+}
+
+.tableColnow {
+  width: 260px;
+  height: 90px;
+  text-align: center;
+  background: #c6ecf9;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+.tableColcontentnow {
+  width: 260px;
+  height: 90px;
+  float: left;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+.tableColcontentTarget {
+  width: 1300px;
+  height: 90px;
+  float: left;
+}
+
+.textareaStyle {
+  width: 1300px;
+  height: 89.5px;
+}
+
+.areaname {
+  float: left;
+  width: 260px;
+  height: 90px;
+  text-align: center;
+  line-height: 90px;
+  background-color: #c8edf9;
+}
+
+.TargetActive {
+  width: 1920px;
+  height: 250px;
+  float: left;
+}
+
+.Targetarea {
+  width: 1300px;
+  height: 250px;
+  float: left;
+  border: 1px solid #a9a9a9;
+}
+
+.popFodderTypeMax {
+  margin-bottom: 30px;
+}
+
+.popFodderType {
+  width: 1000px;
+}
+
+.popFodderType:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.popFodderType_relate {
+  /* float:left; */
+  width: 1000px;
+  /* height:40px; */
+  margin-bottom: 30px;
+}
+
+.popWorkType {
+  float: left;
+  width: 1050px;
+  height: 40px;
+}
+
+.popselectupload {
+  float: left;
+  width: 230px;
+  height: 45px;
+  margin: 5px 5px;
+}
+
+.uploadtable {
+  max-width: 1000px;
+  text-align: center;
+}
+
+.uploadtable_ZCXH {
+  float: left;
+  width: 1000px;
+  text-align: center;
+}
+
+.uploadtable_ZCXH:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.targettable {
+  width: 1000px;
+  text-align: center;
+  /* height:300px; */
+}
+
+.popselect {
+  width: 100%;
+  float: left;
+  height: 40px;
+}
+
+.popselect:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* 雷达情报政变页面修改的样式 */
+.leftModel {
+  width: 960px;
+  overflow: hidden;
+  overflow-y: scroll;
+  float: left;
+}
+
+.rightModel {
+  width: 960px;
+  overflow-y: scroll;
+  float: right;
+  overflow-x: hidden;
+}
+
+.FodderTitleMin {
+  float: left;
+  font-size: 14px;
+  background: #dad8d8;
+  color: rgba(0, 0, 0, 0.65);
+  width: 945px;
+  height: 35px;
+  text-align: left;
+  padding: 5px 0 0 15px;
+}
+
+.FodderRadarMin {
+  float: left;
+  font-size: 16px;
+  background: #d6e4ef;
+  color: #26adda;
+  width: 945px;
+  height: 30px;
+  text-align: left;
+  padding: 5px 0 0 20px;
+}
+
+.ContentBasicMin {
+  width: 100%;
+}
+
+.subheadMin {
+  /* padding: 5px 5px 5px 5px; */
+  background: #dad8d8;
+  width: 945px;
+  /* float: left; */
+  height: 40px;
+  line-height: 40px;
+}
+
+.tableRowMin {
+  width: 945px;
+  height: 32px;
+}
+
+.tableColMin {
+  width: 235px;
+  height: 32px;
+  text-align: center;
+  background: #c6ecf9;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+.tableColcontentMin {
+  width: 235px;
+  height: 32px;
+  text-align: center;
+  background: #f5fdfd;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+.ContentBattleMin {
+  float: left;
+  width: 945px;
+}
+
+.popselectuploadMin {
+  float: left;
+  width: 230px;
+  height: 45px;
+  margin: 5px 5px;
+}
+
+.tableBorderMin {
+  float: left;
+  width: 945px;
+}
+
+.subhea_ChildMin {
+  padding: 5px 5px 5px 5px;
+  background: #dad8d8;
+  width: 300px;
+  float: left;
+  text-align: center;
+}
+
+.ContentParamsMin {
+  float: left;
+  width: 100%;
+}
+
+.scroll {
+  width: 940px;
+}
+
+.ant-spin-container {
+  display: none;
+}
+
+.TextBox div {
+  display: inline-block;
+}
+
+.tableColTextCon {
+  width: 1600px;
+  height: 64px;
+  /* height:100%; */
+  border-color: #D9D9D9;
+}
+
+.tableColcontent {
+  height: 32px;
+}
+
+.tableColTextConMin {
+  width: 720px;
+  height: 64px;
+  border-color: #D9D9D9;
+}
+
+/* 相关资料样式 */
+.subhead_ralateMsg {
+  width: 900px;
+  height: 40px;
+  line-height: 30px;
+  background: #dad8d8;
+}
+
+/* 图片部分样式*/
+.imgLeft,
+.imgRight {
+  width: 30px;
+  height: 300px;
+  background: rgba(0, 0, 0, .3);
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  line-height: 300px;
+  cursor: pointer;
+}
+
+.imgLeft {
+  left: 0;
+}
+
+.imgRight {
+  right: 0;
+}
+
+.relateMsg_Con>div {
+  width: 900px;
+  height: 300px;
+  float: left;
+  margin-left: 40px;
+}
+
+.relateMsg_Con_Min:after,
+.relateMsg_Con:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.relateMsg_Con_Min>div {
+  width: 900px;
+  height: 300px;
+  margin:0 auto;
+}
+
+
+
+/* 使用div重新布局 */
+/* 大的页面样式 */
+.Basic_Content_Wrap:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.FirstBox .Basic_Content_Wrap>div {
+  float: left;
+  width: 320px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  /* border-bottom: 2px solid #e5f3f3; */
+  border-bottom: 2px solid #e5f3f3;
+}
+
+/* 奇数行 */
+.FirstBox .Basic_Content_Wrap>div:nth-child(odd) {
+  background: #c6ecf9;
+  /* background:#e3eaf4; */
+}
+
+.FirstBox .Basic_Content_Wrap>.Textarea_title {
+  height: 72px;
+  line-height: 72px;
+}
+
+.FirstBox .Basic_Content_Wrap>.Textarea_Content {
+  width: 1600px;
+  height: 72px;
+}
+
+.FirstBox .ContentBasic,
+.FirstBox .ContentBattle,
+.FirstBox .ContentParams,
+.FirstBox .ContentXHParams {
+  width: 1920px;
+}
+
+.FirstBox .ContentSignMsg {
+  width: 1920px;
+}
+
+.FirstBox .closeBtn {
+  width: 1920px;
+  display: none;
+}
+
+.FirstBox .FodderRadar {
+  width: 1920px;
+}
+
+/* 小的页面样式 */
+.FirstBoxMin_left {
+  width: 960px;
+  overflow: hidden;
+  overflow-y: scroll;
+  float: left;
+}
+
+.FirstBoxMin {
+  float: left;
+}
+
+.FirstBoxMin .Basic_Content_Wrap>div {
+  float: left;
+  width: 25%;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+.FirstBoxMin .Basic_Content_Wrap>div:nth-child(odd) {
+  background: #c6ecf9;
+}
+
+.FirstBoxMin .Basic_Content_Wrap>.Textarea_title {
+  height: 72px;
+  line-height: 72px;
+}
+
+.FirstBoxMin .Basic_Content_Wrap>.Textarea_Content {
+  width: 712px;
+  height: 72px;
+}
+
+
+.FirstBoxMin .ContentBasic,
+.FirstBoxMin {
+  width: 100%;
+}
+
+.FirstBoxMin .subhead {
+  background: #dad8d8;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+}
+
+.FirstBoxMin .subheadAdd {
+  height: 40px;
+  line-height: 40px;
+  background: #dad8d8;
+  width: 100%;
+}
+
+.FirstBoxMin .ContentBasic,
+.FirstBoxMin .ContentBattle,
+.FirstBoxMin .ContentParams,
+.FirstBoxMin .ContentXHParams {
+  width: 100%;
+}
+
+.FirstBoxMin .ContentSignMsg {
+  width: 940px;
+}
+
+.FirstBoxMin .closeBtn {
+  width: 943px;
+  display: block;
+}
+
+.FirstBoxMin .FodderRadar {
+  width: 100%;
+}
+
+
+
+/* 工作模式 */
+.Work_mode .Work_mode_threePart {
+  float: left;
+  height: 280px;
+  width: 600px;
+}
+
+.Work_mode .subhea_Child {
+  height: 32px;
+  line-height: 32px;
+  background: #dad8d8;
+  width: 600px;
+  text-align: center;
+}
+
+.subhea_Child:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.Work_mode .subhea_Child>span {
+  float: left;
+  line-height: 32px;
+  line-height: 32px;
+  padding-left: 10px;
+}
+
+.Work_mode_threePart .subhea_Child>span {
+  float: left;
+  line-height: 32px;
+  line-height: 32px;
+  padding-left: 10px;
+}
+
+.Work_mode .Work_mode_character {
+  width: 1882px;
+  margin:0 auto;
+}
+
+.Work_mode .Work_mode_character_Title {
+  width: 1882px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  background: #dad8d8;
+  margin:0 auto;
+}
+
+.Work_mode .Work_mode_threePart_wrap{
+  display:flex;
+  width:1882px;
+  margin:10px auto;
+  justify-content:space-between;
+}
+
+.Work_mode_Min .Work_mode_threePart_wrap{
+  display:flex;
+  width:920px;
+  height:291px;
+  margin:10px auto;
+  justify-content:space-between;
+}
+
+.Work_mode_Min .Work_mode_threePart {
+  float: left;
+  /* height: 200px; */
+  width: 295px;
+  /* margin: 10px 9px; */
+}
+
+.Work_mode_Min:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.Work_mode_threePart th {
+  width: 318px;
+  height: 32px;
+  text-align: center;
+}
+
+.Work_mode_threePart td {
+  width: 318px;
+  height: 32px;
+  text-align: center;
+}
+
+.Work_mode_Min .subhea_Child {
+  height: 32px;
+  line-height: 32px;
+  background: #dad8d8;
+  width: 295px;
+  text-align: center;
+}
+
+.Work_mode .subhea_Child>span {
+  padding-left: 10px;
+  float: left;
+  line-height: 32px;
+}
+
+.Work_mode_Min .Work_mode_character {
+  width: 920px;
+  margin:0 auto;
+}
+
+.Work_mode_Min .Work_mode_character_Title {
+  width: 920px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  background: #dad8d8;
+  margin:0 auto;
+}
+
+.Work_mode_Min .Work_mode_character th {
+  height: 32px;
+  text-align: center;
+}
+
+.Work_mode .Work_mode_character th {
+  width: 189px;
+  height: 32px;
+  text-align: center;
+}
+
+.Work_mode_character td {
+  height: 32px;
+  text-align: center;
+}
+
+
+/* 表格样式 */
+.Work_mode_character,.addTable_box_zh,.addTable_box_fr {
+  height:101px;
+  overflow:hidden
+}
+.Work_mode_character .addTable_box_fr th {
+  height: 50px;
+}
+
+.Work_mode_character .addTable_box_zh th {
+  height: 32px;
+}
+
+.Work_mode_Min .Work_mode_character .addTable_box_zh,
+.Work_mode_Min .Work_mode_character .addTable_box_fr {
+  width: 920px;
+}
+
+
+
+
+
+
+
+/* 导入弹出框样式搜索条件 */
+.select_condition_targetDialog {
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.select_condition_targetDialog>div:nth-child(odd) {
+  width: 44%;
+  float: left;
+}
+
+.select_condition_targetDialog>div:nth-child(even) {
+  width: 55%;
+  float: left;
+}
+
+.select_condition_targetDialog>div>span {
+  width: 32%;
+  margin-right: 15px;
+  display: inline-block;
+  text-align: right;
+}
+
+.select_condition_targetDialog>div>div {
+  display: inline-block;
+}
+
+/* //目标库 */
+.select_condition_targetDialog_Target {
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.select_condition_targetDialog_Target>div {
+  width: 50%;
+}
+
+.select_condition_targetDialog_Target>div>span {
+  width: 32%;
+  margin-right: 15px;
+  display: inline-block;
+  text-align: right;
+}
+
+.select_condition_targetDialog_Target>div>div {
+  display: inline-block;
+}
+
+.BtnBox {
+  margin-top: 14px;
+}
+
+.BtnBox>div {
+  float: left;
+  margin-left: 10px;
+}
+
+.BtnBox:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.BtnBox_wrap {
+  height: 60px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  background: #e3eaf4;
+  position: fixed;
+  z-index: 1052;
+  margin-bottom: 46px;
+  width: 1920px;
+  box-shadow: 0 2px 5px #ddd;
+}
+
+/* 工作模式 */
+.popFodderType_workpop {
+  width: 1000px;
+  margin-bottom: 30px;
+}
+
+ /* .popFodderType_workpop>div.popFodderType_workpop_wrap:after {
+  content: '';
+  display: block;
+  clear: both;
+} */
+
+ .popFodderType_workpop>div.popFodderType_workpop_wrap>div {
+  float: left;
+  /* width: 240px; */
+  width: 50%;
+  margin-bottom: 10px;
+  line-height: 32px;
+}
+
+/* .popFodderType_workpop>div.popFodderType_workpop_wrap>div:nth-child(odd) {
+  width: 22%;
+  text-align: right;
+  margin-right: 15px;
+}  */
+
+/* 工作模式被点击行的时候显示的背景色 */
+.l_table_row_active {
+  background: #e6f7ff;
+}
+
+.btnBox {
+  margin-top: 20px;
+}
+
+.freqBox_wrap:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.freqBox_wrap>div {
+  width: 900px;
+  height: 500px;
+  text-align: center;
+  padding: 5px;
+  float: left
+}
+
+.chartBoxWrap>div>div {
+  width: 900px;
+  height: 500px;
+  text-align: center;
+  padding: 5px 5px;
+  display: inline-block;
+}
+
+.FirstBoxColumn {
+  display: none;
+}
+
+.FirstBoxMinColumn {
+  width: 18px;
+  height: 5000px;
+  background: rgb(213, 213, 213);
+  z-index: 999;
+}
+
+.Content_wrap{
+  height:975px;
+  position:fixed;
+  overflow:scroll;
+}

@@ -1,0 +1,472 @@
+.clearFix:after,
+.Material_check:after {
+  display: block;
+  content: '';
+  clear: both;
+  height: 0px;
+}
+
+.Tool {
+  width: 1920px;
+  height: 50px;
+  margin-top:45px;
+  background: #182445 100%;
+  position: relative;
+}
+
+.ToolCol {
+  float: left;
+  width: 1920px;
+  height: 50px;
+  background: #182445 100%;
+  position: fixed;
+  z-index: 1051;
+  top: 45px;
+}
+
+.ToolButton {
+  float: left;
+  height: 50px;
+  color: #bbc4da;
+  margin-bottom: 7px;
+  font-size: 12px;
+}
+
+.ToolButtonChildTitle:nth-child(2),
+.ToolButtonChildTitle:nth-child(1) {
+  margin-left: 10px;
+}
+
+.FodderButton {
+  float: left;
+  width: 65px;
+  height: 70px;
+  margin: 2px 3px 3px 3px;
+  text-align: center;
+
+  color: #bbc4da;
+  cursor: pointer;
+  background: #25345d;
+  padding: 5px 3px 5px 3px;
+}
+
+.AllRecordButton {
+  float: left;
+  width: 65px;
+  height: 70px;
+  margin: 2px 3px 3px 3px;
+  text-align: center;
+
+  color: #bbc4da;
+  cursor: pointer;
+  background: #25345d;
+  padding: 5px 3px 5px 3px;
+}
+
+.Image_Area {
+  padding: 7px 5px 0 5px;
+  text-align: center;
+}
+
+.ElecImage {
+  width: 28px;
+  height: 28px;
+}
+
+.Image_Power {
+  cursor: pointer;
+  padding: 7px 0 3px 0;
+}
+
+.Image_Record {
+  cursor: pointer;
+  padding: 7px 0 3px 0;
+}
+
+.ToolButton_Title {
+  float: left;
+  height: 20px;
+  background: #182445 100%;
+  color: #bbc4da;
+
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.ToolButtonChildTitle {
+  float: left;
+  height: 50px;
+  text-align: center;
+  background: #182445 100%;
+  color: #bbc4da;
+
+  font-size: 16px;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.toolFont {
+  width: 1700px;
+  text-align: center;
+}
+
+.return {
+  float: left;
+  line-height: 20px;
+  padding-top: 40px;
+  left: 1855px;
+  position: absolute;
+}
+
+
+.Side {
+  z-index: 10;
+  float: left;
+  position: relative;
+}
+
+.Material_check>div {
+  float: left;
+  margin: 10px 50px;
+}
+
+.Content {
+  float: left;
+  width: 1615px;
+  height: 975px;
+  margin-left: 5px;
+  background: #e3eaf4;
+}
+
+.ContentInfo {
+  float: left;
+  width: 1603px;
+  height: 340px;
+}
+
+.dataNum {
+  float: left;
+  margin-left: 50px;
+  font-size: 14px;
+  color: #000;
+  margin-top: -42px;
+}
+
+.Fodder_title {
+  float: left;
+  font-size: 14px;
+  background: #d0dae5;
+  color: #666;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.Fodderinfo {
+  float: left;
+  font-size: 16px;
+  background: #d6e4ef;
+  color: #26adda;
+  width: 1560px;
+  height: 30px;
+  text-align: left;
+  padding: 5px 0 0 20px;
+}
+
+.AddFodder {
+  float: left;
+  font-size: 16px;
+  color: #26adda;
+  width: 100%;
+  height: 30px;
+  text-align: left;
+  padding: 5px 0 0 10px;
+  margin-bottom: 15px;
+}
+
+.TableContent {
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  float: left;
+  margin-top: 10px;
+}
+
+.TableContent_material {
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+  padding: 0 10px;
+}
+
+.TableContent_radarType {
+  width: 1900px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.Basic {
+  background: #E3EAF4;
+  height: 975px;
+  width: 300px;
+  color: #666666;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.BasicFodder {
+  font-size: 14px;
+  color: #666666;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.FodderType {
+  width: 100%;
+}
+
+.FodderTypeTitle {
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+  background: #D0DAE5;
+  cursor: pointer;
+}
+
+.FodderTypeCountry {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 10px 40px 10px;
+}
+
+.menu {
+  float: left;
+  width: 60%;
+  height: 46px;
+}
+
+.menu>ul {
+  width: 90%;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  padding-left: 5%;
+}
+
+.menu>ul>li {
+  float: left;
+  width: 141px;
+  height: 46px;
+  text-align: center;
+  font-size: 14px;
+
+  color: #ffffff;
+  line-height: 20px;
+  padding-top: 15px;
+}
+
+.fodderfont {
+
+  width: 70px;
+}
+
+.tableRow {
+  width: 1920px;
+  height: 32px;
+}
+
+.tableCol {
+  width: 260px;
+  height: 32px;
+  text-align: center;
+  background: #c6ecf9;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+.tableColcontent {
+  width: 260px;
+  height: 32px;
+  text-align: center;
+  background: #f5fdfd;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+.tableColSketch {
+  width: 260px;
+  height: 120px;
+  text-align: center;
+  background: #c6ecf9;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+.tableCrossCol {
+  height: 40px;
+  text-align: left;
+  background: #f5fdfd;
+  padding-left: 20px;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+.CrossRow {
+  width: 260px;
+  height: 120px;
+  text-align: left;
+  background: #f5fdfd;
+  padding-left: 20px;
+  border-bottom: 2px solid #e5f3f3;
+}
+
+.fujian {
+  padding: 5px 5px 5px 20px;
+  width: 1560px;
+  height: 100px;
+  float: left;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.subhead {
+  padding: 5px 5px 5px 5px;
+  background: #dad8d8;
+  width: 1920px;
+  float: left;
+}
+
+.foddersubhead {
+  float: left;
+  padding: 5px 5px 5px 5px;
+  background: #dad8d8;
+  width: 1560px;
+}
+
+
+.character {
+  border: 1px solid black;
+  width: 1560px;
+  height: 190px;
+  margin-top: 0px;
+  float: left;
+}
+
+.popFodderType {
+  width: 1000px;
+}
+
+.title_wrapper {
+  width: 100%;
+}
+
+.title_wrapper>div:nth-child(2) {
+  margin-left: 50px;
+}
+
+.title_wrapper:after {
+  display: block;
+  content: '';
+  clear: both;
+  height: 0px;
+}
+
+.popWorkType {
+  float: left;
+  width: 1050px;
+  height: 40px;
+}
+
+.popselectupload {
+  float: left;
+  height: 45px;
+  margin: 5px 5px;
+}
+
+.uploadtable {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.targettable {
+  width: 700px;
+  text-align: center;
+}
+
+.popselect {
+  float: left;
+}
+
+.upload_Btn {
+  float: right;
+}
+
+/* 新加查询按钮样式 */
+.SelctBtn {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+  padding-left: 118px;
+}
+
+/* 小模块里面的样式，工作模式 */
+.subheadMin {
+  padding: 5px 5px 5px 5px;
+  background: #dad8d8;
+  width: 960px;
+  float: left;
+}
+
+.popWorkTypeMin {
+  float: left;
+  width: 1050px;
+  height: 40px;
+}
+
+.popselectuploadMin {
+  float: left;
+  width: 230px;
+  height: 45px;
+  margin: 5px 5px;
+}
+
+.tableBorderMin {
+  float: left;
+  width: 960px;
+}
+
+.subheadChild {
+  width: 300px;
+}
+
+.tableColText {
+  width: 1600px;
+  height: 32px;
+}
+
+.checkStyle {
+  float: left;
+  margin: 10px 50px;
+}
+
+.marksure {
+  margin-left: 10px;
+}
+
+.btnBox {
+  margin-top: 20px;
+}
+
+/* 素材的容器样式 */
+.material_wrap {
+  height: 985px;
+  padding: 5px 0px 5px 0px;
+}

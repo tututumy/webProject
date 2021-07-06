@@ -1,0 +1,273 @@
+html,
+body,
+:global(#root) {
+  height: 100%;
+  font-family: "Arial 微软雅黑" !important;
+  // width:1920px;
+  // overflow-x: hidden;
+  // height:1080px;
+  // overflow-y:hidden;
+}
+
+:global {
+  // 滚动条
+  ::-webkit-scrollbar {
+    //滚动条整体部分
+    //滚动条宽高
+    height: 5px; //水平滚动条
+    width: 5px; //垂直滚动条
+    background: none;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    //滚动条里面的小滑块,能上下左右移动(取决于是垂直滚动条还是水平滚动条）
+    background: #d5d5d5;
+  }
+}
+
+//radio按钮
+:global(.ant-radio-inner) {
+  width: 13px;
+  height: 13px;
+  background: none;
+  color: #666666;
+  font-size: 12px;
+
+  &:after {
+    height: 5px;
+    width: 5px;
+  }
+}
+
+//表格
+// .myClass {
+:global {
+  .ant-table-small
+    > .ant-table-content
+    > .ant-table-scroll
+    > .ant-table-header
+    > table
+    > .ant-table-thead
+    > tr
+    > th {
+    padding: 0 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+    height: 30px;
+    line-height: 16px;
+    background: #edf2f8;
+  }
+
+  .ant-table-tbody > tr > td {
+    font-size: 14px;
+    color: #666666;
+    height: 30px;
+    padding: 0 5px;
+    text-align: center;
+  }
+
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > td {
+    padding: 0 5px;
+    text-align: center;
+  }
+
+  .ant-table-tbody > tr:hover {
+    background: #eaf7ff;
+  }
+}
+
+// }
+//奇偶行变色
+.odd {
+  :global {
+    background: #ffffff 100%;
+  }
+}
+
+.even {
+  :global {
+    background: #f9fafc 100%;
+  }
+}
+
+//输入框
+:global(.ant-input) {
+  height: 32px;
+  line-height: 16px;
+  border: 1px solid #d9d9d9;
+  border-radius: none;
+}
+
+:global(.ant-input-affix-wrapper .ant-input:focus) {
+  border: none;
+  border-bottom: 1px solid #fff !important;
+  box-shadow: none;
+}
+
+//复选框
+:global(.ant-checkbox-inner) {
+  width: 13px;
+  height: 13px;
+  line-height: 13px;
+  background: none;
+  background-color: none;
+
+  // &:after {
+  //   top: 4.8px;
+  //   left: 1.9px;
+  // }
+}
+
+:global(.ant-checkbox-inner:after) {
+  top: 4.8px;
+  left: 1.9px;
+}
+
+:global(.ant-checkbox-checked .ant-checkbox-inner) {
+  background-color: #1f95ff;
+}
+
+:global {
+  .ant-checkbox-checked:checked {
+    background-color: #1f95ff;
+  }
+}
+
+//链接
+:global {
+  a {
+    color: #1f95ff;
+  }
+}
+
+//按钮 主要按钮的样式
+:global {
+  .ant-btn-primary {
+    background-color: #2884d8 !important;
+    border-radius: 0 !important;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .ant-btn-primary:hover {
+    background-color: #3d90db;
+  }
+
+  .ant-btn-primary:active {
+    background-color: #2376c1;
+  }
+
+  .ant-btn {
+    border-radius: 0;
+  }
+}
+
+//按钮  次要按钮
+:global {
+  .ant-modal-footer button:nth-child(1) {
+    background-color: #d0dae5;
+    color: #666666;
+  }
+
+  .ant-modal-footer button:nth-child(1):hover {
+    background-color: #d0dae5;
+    color: #2d81ce;
+    border-color: #2d81ce;
+  }
+
+  .ant-modal-footer button:nth-child(1):active {
+    background-color: #d0dae5;
+    color: #1c6fbc;
+    border-color: #1c6fbc;
+  }
+}
+
+//模态框
+:global {
+  .ant-modal-footer div {
+    text-align: center;
+  }
+
+  .ant-modal-header {
+    height: 30px;
+  }
+
+  .ant-modal-footer {
+    padding: 20px 0 30px;
+  }
+
+  .ant-modal-content button {
+    padding: 0 15px !important;
+  }
+
+  .ant-modal-content button.ant-modal-close {
+    padding: 0 !important;
+  }
+
+  .ant-modal-footer button {
+    padding: 15px !important;
+  }
+}
+
+//文本框
+:global {
+  .ant-input {
+    border-color: #d9d9d9;
+    height: 32px;
+    border-radius: 0;
+  }
+
+  .ant-input:active {
+    border-color: #00499d;
+    height: 32px;
+    box-shadow: 0px 0px 2px #0076ff;
+  }
+}
+
+//select框
+:global {
+  .ant-select {
+    height: 32px !important;
+  }
+
+  .ant-select-selection {
+    height: 32px;
+    border-radius: 0;
+  }
+
+  .ant-select-dropdown {
+    text-align: left;
+  }
+
+  .ant-select-dropdown-menu li {
+    height: 32px;
+  }
+
+  .ant-select-dropdown-menu-item:last-child {
+    border-radius: 0;
+  }
+
+  .ant-select-selection__rendered {
+    line-height: 32px;
+  }
+
+  .ant-message {
+    z-index: 2000 !important;
+  }
+}
+
+//模态框里面的按钮====次要按钮
+:global {
+  .ant-modal-content button {
+    height: 32px;
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .ant-modal-footer button span {
+    position: relative;
+    top: -10px;
+  }
+}
